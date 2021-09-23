@@ -1,12 +1,12 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front End`
 
-`SEMESTRE`
+`1º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Projeto Mercado busca facilitar a vida do consumidor ao fornecer um sistema onde os usuarios podem entrar, pesquisar preços em diversos estabelecimentos da região e escolher a melhor opção.
 
 ## Integrantes
 
