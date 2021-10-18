@@ -1,24 +1,52 @@
-#background {
+#Background {
     background-color: orange;
+    height: 100px;
 }
 
-.aside {
+.Aside {
+    background-color: orange;
     float: right;
-    position: fixed right;
+    display: block;
+}
+
+img {
+    display: block;
 }
 
 div {
     display: inline-block;
-    vertical-align: top;
     width: 20%;
-    
+    text-align: center;
+    margin: 0 auto;  
 }
+
 
 .Descrição {
     display: inline-block;
     vertical-align: top;
     width: 20%;
+    text-align: center;
 }
+
 .Titulo_seção {
     font-size: xxx-large;
+}
+
+.Digita_busca {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    width: 30%;
+}
+
+.Logo {
+    display: inline-block;
+}
+
+.Log_in {
+    display: inline-block;
+}
+
+footer {
+    background-color: orange;
 }
