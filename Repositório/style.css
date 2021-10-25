@@ -1,12 +1,21 @@
-#Background {
+#background {
     background-color: orange;
     height: 100px;
 }
 
-.Aside {
+.aside {
+    width: 15%;
     background-color: orange;
     float: right;
     display: block;
+    
+}
+
+.aside p {
+    display: block;
+    text-align: center;
+    font-size: 130%;
+    min-height: 170px
 }
 
 img {
@@ -20,33 +29,66 @@ div {
     margin: 0 auto;  
 }
 
+ul {
+    background-color: orange;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-.Descrição {
+li {
+    display: inline-block;
+    width: 25%;
+    font-size: 200%;
+}
+
+.descrição {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     text-align: center;
 }
 
-.Titulo_seção {
+.titulo_seção {
     font-size: xxx-large;
 }
 
-.Digita_busca {
+/*.seção {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;  
+}*/
+
+.digita_busca {
     text-align: center;
     margin: 0 auto;
     display: inline-block;
     width: 30%;
 }
 
-.Logo {
-    display: inline-block;
+.logo {
+    /*display: inline-block;*/
+    float: left;
 }
 
-.Log_in {
-    display: inline-block;
+.log_in {
+    /*display: inline-block;*/
+    float: right;
 }
 
 footer {
     background-color: orange;
+    font-size: 250%;
+}
+
+.login_page {
+    display: block;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.center {
+    display: block;
+    background-color: whitesmoke;
 }
