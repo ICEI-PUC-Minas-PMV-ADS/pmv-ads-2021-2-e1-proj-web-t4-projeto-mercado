@@ -10,14 +10,15 @@ O Projeto Mercado busca facilitar a vida do consumidor ao fornecer um sistema on
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno
+* Dayane
+* Maxwell
+* Pedro
+* Valcilene
 
 ## Orientador
 
-* Nome completo do professor 1
+* Will
 
 ## Instruções de utilização
 
