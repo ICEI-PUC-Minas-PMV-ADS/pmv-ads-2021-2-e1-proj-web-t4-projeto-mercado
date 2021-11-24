@@ -6,23 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick-master/slick/slick.css">
+    <link rel="stylesheet" href="slick-master/slick/slick-theme.css">
+    <script type="text/javascript" src="slick-master/slick/jquery-3.6.0.min.js"></script>
+    <script src="rotacao.js"></script>
 </head>
 <body>
     <header id="background">
-        <img src="imagens/logoprovisorio.png" alt="Logo" class="logo">
-        <input type="text" name="busca" placeholder="Digite aqui sua busca" class="digita_busca"><button>Ok</button>
+        <img src="imagens/Logo2.png" alt="Logo" class="logo">
+        <div class="busca">
+            <a href="busca.html"><img src="imagens/searchbtn2.png" alt=""></a>
+        </div>
         <a href="Login.html">
             <img src="imagens/login.png" alt="Log In" class="log_in">
         </a>
     </header>
     <nav>
-        <ul>
+        <ul> <!--Menu Superior-->
             <li><a href="minhalista.html" class="">Minha Lista</a></li>
             <li><a href="promocao.html" class="">Promoções</a></li>
             <li><a href="parceiro.html" class="">Parceiros</a></li>
         </ul>
     </nav>
-    <aside class="aside"> <!--Anuncios-->
+    <aside class="aside"> <!--Anuncios laterais-->
         <div><img src="imagens/parceiro1.png" alt=""></div>
         <p><strong>ANUNCIO 1: </strong>SUPER MERCADO ZÉ DAS COUVES</p>
         <div><img src="imagens/parceiro2.png" alt=""></div>
@@ -30,44 +36,19 @@
     </aside>
     <article> <!--Promoções em vigencia-->
         <h2 class="titulo_seção">Promoções em Vigência</h2>
-    <div>
-        <img src="imagens/1.png" alt="" hspace="50" class="seção">
-    </div>
-    <div>
-        <img src="imagens/1.png" alt="" hspace="50" class="seção">
-    </div>
-    <div>
-        <img src="imagens/1.png" alt="" hspace="50" class="seção">
-    </div>
-    <div>
-        <img src="imagens/1.png" alt="" hspace="50" class="seção">
-    </div>
-        <a href=""><p class="descrição">Produto Y: R$ 12,00 (20% de desconto na loja A)</p></a>
-        <a href=""><p class="descrição">Produto Y: R$ 10,00 (15% de desconto na loja B)</p></a>
-        <a href=""><p class="descrição">Produto Y: R$ 20,00 (5% de desconto na loja C)</p></a>
-        <a href=""><p class="descrição">Produto Y: R$ 12,00 (20% de desconto na loja D)</p></a>
+        <div class="slider" id="promo">
+        </div>
     </article>
     <article> <!--Produtos mais buscados-->
-        <h3 class="titulo_seção">Produtos mais buscados</h3>
-        <div>
-        <img src="imagens/1.png" alt="" hspace="50">
+        <h3 class="titulo_seção">Produtos mais Buscados</h3>
+        <div class="slider" id="prod">
         </div>
-        <div>
-        <img src="imagens/2.png" alt="" hspace="50">
-        </div>
-        <div>
-        <img src="imagens/3.png" alt="" hspace="50">
-        </div>
-        <div>
-        <img src="imagens/4.png" alt="" hspace="50">
-        </div>
-        <a href=""><p class="descrição">Produto X: R$ 12,00 (Loja C)</p></a>
-        <a href=""><p class="descrição">Produto Z: R$ 10,00 (Loja C)</p></a>
-        <a href=""><p class="descrição">Produto W: R$ 30,00 (Loja A)</p></a>
-        <a href=""><p class="descrição">Produto K: R$ 28,00 (Loja B)</p></a>
+    <script type="text/javascript" src="slick-master/slick/jquery-3.6.0.min.js"></script>
+    <script src="slick-master/slick/slick.js"></script>
     </article>
     <footer>
         Projeto Mercado todos os direitos reservados, 2021.
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
