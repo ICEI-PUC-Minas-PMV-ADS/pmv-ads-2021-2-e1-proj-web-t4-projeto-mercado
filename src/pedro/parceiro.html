@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parceiros</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="funcoes.js"></script>
+
 </head>
     <body>
         <header id="background">
@@ -16,10 +18,28 @@
             </a>
         </header>
         <main>
-            <div><img src="imagens/parceiro1.png" alt=""></div>
-            <p>Super Mercado Zé das Couves</p>
-            <div><img src="imagens/parceiro2.png" alt=""></div>
-            <p>Super Mercado Edmundo Taioba</p>
+            <div class="container" id="principal">
+            <div class="col"><img src="imagens/parceiro1.png" alt="teste" class="img-center">
+                <p>Super Mercado Zé das Couves</p>
+            </div>
+            
+            <div class="col"><img src="imagens/parceiro2.png" alt="" class="img-center">
+                <p>Super Mercado Edmundo Taioba</p>
+            </div>
+
+            <div class="col"><img src="imagens/parceiro2.png" alt="" class="img-center">
+                <p>Super Mercado São joão</p>
+            </div>
+
+            <a  href="/" onclick="exibirTodosParceiros(); return false;" >
+                VER MAIS
+            </a>
+
+        </div>
+
+
+            
+           
         </main>
         <footer>
         Projeto Mercado todos os direitos reservados, 2021.
