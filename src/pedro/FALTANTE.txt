@@ -1,5 +1,0 @@
-JSON com dados de "Promoções em Vigencia"
-
-JSON com dados de "Produtos mais buscados"
-
-Substiuir no HTML as imgs pelo JSON
