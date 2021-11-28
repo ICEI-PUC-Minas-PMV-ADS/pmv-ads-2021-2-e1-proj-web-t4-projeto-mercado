@@ -22,7 +22,7 @@ O Projeto Mercado busca facilitar a vida do consumidor ao fornecer um sistema on
 
 ## Instruções de utilização
 
-Abra o site e veja um menu rotativo com alguns itens principais alternados. O Botão superior BUSCA te leva a uma pagina de pesquisa por itens (digite bebidas para testar a funcionalidade). O link PARCEIROS te leva a uma pagina com alguns parceiros simulados e um botão "veja mais" que amplia a pagina. O botão ENTRAR te leva a uma pagina de Login, cadastro e recuperação de senha.
+Abra o site (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t4-projeto-mercado/src/pedro/index.html) e veja um menu rotativo com alguns itens principais alternados. O Botão superior BUSCA te leva a uma pagina de pesquisa por itens (digite bebidas para testar a funcionalidade). O link PARCEIROS te leva a uma pagina com alguns parceiros simulados e um botão "veja mais" que amplia a pagina. O botão ENTRAR te leva a uma pagina de Login, cadastro e recuperação de senha.
 
 # Documentação
 
