@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+body{
+    background-color:orange;
+}
+ 
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 4%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid orange;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid orange;
+}
+
+.label-float label{
+    color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: orange;
+}
+
+
+button{
+    background-color: orange;
+    color: white;
+    border-color: transparent;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+p a{
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: centers;
+}
+    
+
+.fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+  }
+  
+   #msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }

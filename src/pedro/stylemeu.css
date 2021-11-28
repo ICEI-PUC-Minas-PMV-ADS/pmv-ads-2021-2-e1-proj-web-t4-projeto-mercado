@@ -1,0 +1,121 @@
+#background {
+    background-color: orange;
+    height: 100px;
+}
+
+.aside {
+    width: 15%;
+    background-color: orange;
+    float: right;
+    display: block;
+    
+}
+
+.aside p {
+    display: block;
+    text-align: center;
+    font-size: 130%;
+    min-height: 170px
+}
+
+nav {
+    background-color: orange;
+    height: 60px;
+}
+
+img {
+    display: block;
+}
+
+div {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;  
+}
+
+ul {
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 100px;
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+    font-size: 200%;
+    background-color: white;
+}
+
+.descrição {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    text-align: center;
+}
+
+.titulo_seção {
+    font-size: xxx-large;
+}
+
+/*.seção {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;  
+}*/
+
+.busca {
+    text-align: center;
+    margin: 5px 0 0 0;
+    display: inline-block;
+    padding-left: 450px;
+}
+
+.box {
+    width: 380px;
+}
+
+.logo {
+    /*display: inline-block;*/
+    float: left;
+}
+
+.log_in {
+    /*display: inline-block;*/
+    float: right;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: orange;
+    font-size: 250%;
+}
+
+.login_page {
+    display: block;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.center {
+    display: block;
+    background-color: whitesmoke;
+}
+
+.slider {
+    width: 300%;
+    padding-left: 130px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.just {
+    text-align: justify;
+    text-justify: inter-word;
+    display: block !important;
+    min-width: 300px;
+
+
+}

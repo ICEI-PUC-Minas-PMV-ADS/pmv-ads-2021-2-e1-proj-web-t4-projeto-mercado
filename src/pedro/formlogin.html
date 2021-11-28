@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de login</title>
+    <link rel="stylesheet" href="login.style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class='container'>
+        <div class='card'>
+          <h1> Entrar </h1>
+          
+          <div id='msgError'></div>
+          
+          <div class='label-float'>
+            <input type='text' id='usuario' paceholder='' required>
+            <label id='userLabel' for='usuario'>Usuario</label>
+          </div>
+          
+          <div class='label-float'>
+            <input type='password' id='senha' paceholder='' required>
+            <label id='senhaLabel' for='senha'>Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          
+          <div class='justify-center'>
+            <button onclick='entrar()'>Entrar</button>
+          </div>
+          
+          
+          
+         
+
+        
+            <p>
+                <br>
+                <a href="recsenha.html" target="blank">Esqueci minha senha</a>
+                <br>
+                <br>
+                <a href="cadastro.html" target="blank">Cadastre-se</a>
+            </p>
+
+        </div>
+
+        </div>
+
+
+
+
+      
+
+
+        <script type="text/javascript">
+
+            let btn = document.querySelector('.fa-eye')
+
+            btn.addEventListener('click', () => {
+                let inputSenha = document.querySelector('#senha')
+
+                if (inputSenha.getAttribute('type') == 'password') {
+                    inputSenha.setAttribute('type', 'text')
+                } else {
+                    inputSenha.setAttribute('type', 'password')
+                }
+            })
+
+            function entrar() {
+                let usuario = document.querySelector('#usuario')
+                let userLabel = document.querySelector('#userLabel')
+
+                let senha = document.querySelector('#senha')
+                let senhaLabel = document.querySelector('#senhaLabel')
+
+                let msgError = document.querySelector('#msgError')
+                let listaUser = []
+
+                let userValid = {
+                    nome: '',
+                    user: '',
+                    senha: ''
+                }
+
+                listaUser = JSON.parse(localStorage.getItem('listaUser'))
+
+                listaUser.forEach((item) => {
+                    if (usuario.value == item.userCad && senha.value == item.senhaCad) {
+
+                        userValid = {
+                            nome: item.nomeCad,
+                            user: item.userCad,
+                            senha: item.senhaCad
+                        }
+
+                    }
+                })
+
+                if (usuario.value == userValid.user && senha.value == userValid.senha) {
+                    window.location.href = 'https://cdpn.io/thicode/debug/abpVEeB/jVMpoEDNzPxk'
+
+                    let mathRandom = Math.random().toString(16).substr(2)
+                    let token = mathRandom + mathRandom
+
+                    localStorage.setItem('token', token)
+                    localStorage.setItem('userLogado', JSON.stringify(userValid))
+                } else {
+                    userLabel.setAttribute('style', 'color: red')
+                    usuario.setAttribute('style', 'border-color: red')
+                    senhaLabel.setAttribute('style', 'color: red')
+                    senha.setAttribute('style', 'border-color: red')
+                    msgError.setAttribute('style', 'display: block')
+                    msgError.innerHTML = 'Usuário ou senha incorretos'
+                    usuario.focus()
+                }
+
+            }
+
+
+
+        </script>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
