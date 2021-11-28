@@ -1,0 +1,63 @@
+Como usuario do site gostaria de explorar as funcionalidades disponiveis.
+
+Caso de teste 1
+
+Objetivo: testar a funcionalidade busca. 
+Ação: digitar na barra de busca "bebidas" e clicar OK.
+Retorno:
+
+Refrigerante: Dolly
+
+Guarana - 2 litros
+
+Refrigerante: Coca-Cola
+
+Cola - 2 litros
+
+Refrigerante: Fanta
+
+Laranja - 2 litros
+
+Refrigerante: Sprite
+
+Limão - 500 ml
+
+--------------------------------------------------------------
+
+Caso de teste 2
+
+Objetivo: testar a funcionalidade busca.
+Ação: digitar na barra de busca outro valor além de "bebidas" e clicar OK.
+Retorno: Nenhum pois o codigo js só tem a funcionalidade ainda para retorno da busca por bebidas.
+
+--------------------------------------------------------------
+
+Caso de teste 3
+
+Objetivo: testar a pagina de parceiros.
+Ação: entrar na pagina Parceiros e clicar em "veja mais".
+Retorno: A página amplia e mostra mais parceiros conforme esperado.
+
+--------------------------------------------------------------
+
+Caso de teste 4
+
+Objetivo: testar a responsividade do menu rotativo na pagina inicial.
+Ação: clicar no menu, segurar e arrastar para a direita ou esquerda.
+Retorno: O menu responde corretamente avançando 1 item para a esquerda ou direita.
+
+--------------------------------------------------------------
+
+Caso de teste 5
+
+Objetivo: testar a funcionalidade de cadastro.
+Ação: clicar em ENTRAR e em seguida em CADASTRE-SE. Preencha o formulário e clique Cadastrar.
+Retorno: O usuario retorna à pagina de Login com o cadastro realizado.
+
+--------------------------------------------------------------
+
+Caso de teste 6
+
+Objetivo: testar a funcionalidade de login.
+Ação: preencher usuario e senha conforme dados do cadastro.
+Retorno: Se preenchido corretamente o usuario é retornado para a pagina inicial com o login feito. Se preenchido incorretamente, o usuario recebe a informação de usuario ou senha incorretos.
