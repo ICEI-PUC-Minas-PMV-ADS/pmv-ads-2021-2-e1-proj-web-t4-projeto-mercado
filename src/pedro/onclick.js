@@ -36,7 +36,7 @@ var cadastroProdutos = [
 
 function exibirCadastro(){
 
-    var box = document.getElementById("caixa");
+    var box = document.getElementById("digita_busca");
 
     if(box.value == "bebidas"){
 
@@ -44,17 +44,17 @@ function exibirCadastro(){
 
         for(var x=0; x < cadastroProdutos.length; x++){
 
-            texto = texto + `Refrigerante: ${cadastroProdutos[x].marca}<br><br>`;     
+            texto = texto + `<div>Refrigerante: ${cadastroProdutos[x].marca}<br><br></div>`;     
 
             for(var y=0; y < cadastroProdutos[x].especificacoes.length; y++){
 
                 let marca = `${cadastroProdutos[x].especificacoes[y].Sabor}`;
                 let volume = `${cadastroProdutos[x].especificacoes[y].Volume}<br><br>`;
 
-                texto += `<li>${marca} - ${volume} </li>`;
+                texto += `<div><li>${marca} - ${volume} </li></div>`;
             }
         }        
         var tela = document.getElementById("hajaLuz");
-        tela.innerHTML = texto;
+        tela.innerHTML = texto;      
     }
 }

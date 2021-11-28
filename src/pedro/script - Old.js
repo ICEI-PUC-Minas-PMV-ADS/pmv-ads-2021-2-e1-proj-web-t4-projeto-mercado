@@ -1,9 +1,9 @@
-export var dataBasePromo = {
+var dataBasePromo = {
     dados: [
         {
             titulo: 'Refrigerante de Cola',
             descricao: '50% de desconto no Edmundo Taioba',
-            imagem: 'https://d3efjz1jvymzgz.cloudfront.net/Custom/Content/Products/10/11/1011793_refrigerante-coca-cola-zero-lata-350ml-fardo-c-12-unidades_l2_637442455469887670.jpg',
+            imagem: 'http://lorempixel.com/200/200/food/1',
             categoria: 'bebidas',
             preco: 4.00
         }, {
@@ -105,3 +105,14 @@ var dataBaseProd = {
         }
     ]
 }
+var promocao = '';
+for (i=0; i < dataBasePromo.dados.length; i++) {
+    promocao += `<div><img src="${ dataBasePromo.dados[i].imagem }"></img> <br> <p>Promoção: ${ dataBasePromo.dados[i].titulo } </p> <br> <p> ${ dataBasePromo.dados[i].descricao } </p> <br> <p>Preço: ${ dataBasePromo.dados[i].preco } </p></div>`
+}
+document.getElementById('promo').innerHTML = promocao;
+
+var produto = '';
+for (i=0; i < dataBaseProd.dados.length; i++) {
+    produto += `<div><img src="${ dataBaseProd.dados[i].imagem }"></img> <br> <p>Produto: ${ dataBaseProd.dados[i].titulo } </p> <br> <p> ${ dataBaseProd.dados[i].descricao } </p> <br> <p>Preço: ${ dataBaseProd.dados[i].preco } </p></div>`
+}
+document.getElementById('prod').innerHTML = produto;

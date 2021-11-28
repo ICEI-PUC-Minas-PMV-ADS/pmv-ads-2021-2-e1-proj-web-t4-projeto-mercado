@@ -1,0 +1,29 @@
+#background {
+    background-color: orange;
+    height: 100px;
+}
+
+.aside {
+    width: 15%;
+    background-color: orange;
+    float: right;
+    display: block;
+    
+}
+
+.aside p {
+    display: block;
+    text-align: center;
+    font-size: 130%;
+    min-height: 170px
+}
+
+nav {
+    background-color: orange;
+    height: 60px;
+}
+
+footer {
+    background-color: orange;
+    font-size: 250%;
+}
